@@ -10,10 +10,11 @@ body{
     width:901px;
     height: 190px;
     margin: auto;
-    padding: 0;
+    padding: 10px 0 10px 40px;
     box-sizing: border-box;
     font-size: 14px;
     list-style: none;
+    text-align: center;
 
 }
 
