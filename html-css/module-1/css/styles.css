@@ -6,10 +6,11 @@ body{
 }
 
 .site-navigation{
-    width:900px;
+    
+    width:901px;
     height: 190px;
     margin: auto;
-    padding: 10px 0 10px 40px;
+    padding: 0;
     box-sizing: border-box;
     font-size: 14px;
     list-style: none;
@@ -46,6 +47,8 @@ body{
     list-style: none;
     margin: 0;
     padding: 0;
+    font-size: 0;
+    
 
 }
 
@@ -56,24 +59,28 @@ body{
 
 .row-list-item{
     display: inline-block;
-    width: 421px;
-    margin-right: 61;
+    width: 420px;
+    margin-right: 61px;
+    margin-bottom: 128px;
 }
 
-.row-list-item:last-child{
+.row-list-item:nth-last-child(odd){
     margin-right: 0;
 }
 
 .row-list-title{
     color: #b4ad9e;
+    font-size: 14px;
 }
 
 .row-list-item h2{
     line-height: 26px;
+    font-size: 24px;
 }
 
 .row-list-description{
     line-height: 24px;
+    font-size: 14px;
 }
 
 .button-load{
@@ -89,13 +96,7 @@ body{
       
 }
 
-.visually-hidden {
-    position: absolute;
-    clip: rect(0 0 0 0);
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-  }
+
 
 /*
 .page-header{
