@@ -1,5 +1,5 @@
 body{
-    font-family: 'Myriad Pro', sans-serif;
+   
     color: #626262;
     font-size: 14px;
     line-height: 21px;
@@ -8,13 +8,14 @@ body{
 .site-navigation{
     
     width:901px;
-    height: 190px;
-    margin: auto;
+    height: 98px;
+    margin: 0 auto;
     padding: 10px 0 10px 40px;
     box-sizing: border-box;
     font-size: 14px;
     list-style: none;
     text-align: center;
+    
 
 }
 
@@ -24,8 +25,14 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     line-height: 24px;
-    
+    font-family: 'Playfair Display', serif;   
 }
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #00ffff;
+}
+
 
 .menu-item{
     display: inline-block;
@@ -41,9 +48,7 @@ body{
   display: block;
 }
 
-.row{
-    margin-bottom: 53px;
-}
+
 .row-list{
     list-style: none;
     margin: 0;
@@ -62,7 +67,8 @@ body{
     display: inline-block;
     width: 420px;
     margin-right: 61px;
-    margin-bottom: 128px;
+    margin-bottom: 131px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .row-list-item:nth-last-child(odd){
@@ -77,22 +83,44 @@ body{
 .row-list-item h2{
     line-height: 26px;
     font-size: 24px;
+    font-family: 'Playfair Display', serif;
 }
 
 .row-list-description{
     line-height: 24px;
     font-size: 14px;
+    font-family: 'Playfair Display', serif;
+}
+/*
+.button-load{
+    border: none;
+    margin: 0;
+   
+    display: inline-block;
+    width: 163px;
+    height: 60px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color:#626262
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-.button-load{
+*/
+
+.button-load{  
         display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 163px;
         height: 60px;
         font-size: 20px;
         line-height: 24px;
         font-family: "PlayfairDisplay";
-        color: #626262
-        cursor: pointer;       
+        color: #626262    
+        text-transform: uppercase;
+        
       }
       
 }
