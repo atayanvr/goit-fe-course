@@ -91,35 +91,22 @@ body{
     font-size: 14px;
     font-family: 'Playfair Display', serif;
 }
-/*
-.button-load{
-    border: none;
-    margin: 0;
-   
-    display: inline-block;
-    width: 163px;
-    height: 60px;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 600;
-    color:#626262
-    text-transform: uppercase;
-    cursor: pointer;
-}
 
-*/
 
 .button-load{  
         display: block;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 70px;
         width: 163px;
         height: 60px;
         font-size: 20px;
         line-height: 24px;
         font-family: "PlayfairDisplay";
+        background-color: #fff;
         color: #626262    
-        text-transform: uppercase;
+       
+        
         
       }
       
@@ -128,27 +115,8 @@ body{
 
 
 /*
-.page-header{
-    width: 680px;
-    margin: auto;
-    padding: 10px 0 10px 40px;
-}
-
-.menu-item{
-    display: inline-block;
-    margin-right: 30px;
-}
+text-transform: uppercase;
 
 
-.menu-link{
-    display: block;
-    width:100px;
-    text-align:center;
-    text-decoration: none;
-    font-size:14px;
-    text-transform: uppercase;
-}
-*/
-
-/* visually-hidden helper */
+ */
 
