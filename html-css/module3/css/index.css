@@ -6,9 +6,7 @@ body{
 
 .site-navigation{ 
     width:901px;
-    height: 98px;
-    margin: 0 auto;
-    padding: 10px 0 10px 40px;
+    margin: 72px auto 98px;
     box-sizing: border-box;
     font-size: 14px;
     list-style: none;
@@ -26,7 +24,7 @@ body{
 
 .site-navigation a:hover,
 .site-navigation a:focus {
-  color: #00ffff;
+  color: #03a9f4;
 }
 
 .menu-item{
@@ -66,9 +64,14 @@ body{
     margin-right: 0;
 }
 
+.row-list-item:nth-last-child(-n+2){
+    margin-bottom: 53px;
+}
+
 .row-list-title{
     color: #b4ad9e;
     font-size: 14px;
+    text-transform: uppercase;
 }
 
 .row-list-item h2{
