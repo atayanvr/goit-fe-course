@@ -16,18 +16,16 @@ body{
   }
 
 .container{
-    width: 1650px;
+    width: 1110px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0px;
 }
 
 /* NAVIGATION */
 
 .page-nav{
     padding-top: 34px;
-    padding-right: 125px;
     padding-bottom: 104px;
-    padding-left: 262px;
     line-height: 32px;
 }
 
@@ -54,7 +52,6 @@ body{
 
 
 .site-navigation{
-    width: 600px;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -64,7 +61,7 @@ body{
 }
 
 .site-navigation li:not(:last-child){
-    margin-right: 30px;
+    margin-right: 33px;
 }
 
 .site-navigation a{
@@ -88,7 +85,7 @@ body{
 /* PRODUCTS SECTION */
 
 .products {
-    margin-bottom: 99px;
+    padding-bottom: 99px;
 }
 
 .products-title{
@@ -98,8 +95,8 @@ body{
     font-family: "Roboto", sans-serif;
     letter-spacing: -0.96px;
     margin-bottom: 92px;
+    text-transform: uppercase;
 }
-
 
 
 .products-title::after{
@@ -109,38 +106,25 @@ body{
     background-color: #1abc9c;
     content: '';
     margin: 25px auto 0px;
+
 }
 
 .products-list-item{
     float: left;
-    width: 257px;
+    width: 255px;
     margin-right: 30px;
     margin-bottom: 30px;
     list-style: none;
     background-color: #e9f0fd;
 }
 
-.products-list-item:hover .products-blocks .products-list-title{
-    background-color: #1abc9c;
+.products-list-item:nth-child(4n){
+    margin-right: 0px;
 }
-
-.products-list-item:hover .products-blocks .products-list-price{
-    background-color: #7fd9c7;
-}
-
-
-
 
 .products-list-item:nth-last-child(-n+4){
     margin-bottom: 0px;
 }
-
-
-.products-list-item:nth-child(4n+1){
-    margin-left: 262px;
-}
-
-
 
 .products-img{
     display: block;
@@ -152,15 +136,20 @@ body{
     text-transform: uppercase;
 }
 
+.products-list-item:hover .products-blocks {
+    background-color: rgb(26, 188, 156);
+
+}
+
+
 .products-list-title{
     float: left;
-    width: 202px;
-    height: 40px;
+    
     margin-right: 0;
     padding: 0;
     background-color: #323232;
     font-family: "Roboto", sans-serif;
-    line-height: 32px;
+    line-height: 40px;
     color: #ffffff;
     text-indent: 13px;
 }
@@ -176,12 +165,11 @@ body{
 .products-list-price{
     float: right;
     width: 55px;
-    height: 40px;
     margin-top: 0;
     margin-left: 0;
     background-color: #818181;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 42px;
     color: #ffffff;
     text-align: center;
 }
@@ -201,6 +189,7 @@ body{
     font-size: 48px;
     padding-bottom: 80px;
     color: #555252;
+    text-transform: uppercase;
     
 }
 
@@ -221,7 +210,6 @@ body{
 }
 
 .news-list-item:first-child{
-    margin-left: 262px;
     margin-right: 30px;
 }
 
@@ -266,7 +254,10 @@ body{
     height: 51px;
     border-radius: 7px;
     border: 0;
-    padding: 0;
+    padding: 15px;
+    text-align: center;
     margin-top: 14px;
     display: inline-block;
+    text-decoration: none;
+    
 }
