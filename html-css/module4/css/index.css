@@ -109,6 +109,14 @@ body{
 
 }
 
+.products-list-item:hover .products-blocks .products-list-title:first-child{
+    background: #1abc9c;
+}
+
+.products-list-item:hover .products-blocks .products-list-price:last-child{
+    background: #7fd9c7;
+}
+
 .products-list-item{
     float: left;
     width: 255px;
@@ -134,6 +142,7 @@ body{
     font-weight: 900;
     background-color: rgb(50, 50, 50);
     text-transform: uppercase;
+    line-height: 40px;
 }
 
 .products-list-item:hover .products-blocks {
@@ -148,27 +157,22 @@ body{
     padding: 0;
     background-color: #323232;
     font-family: "Roboto", sans-serif;
-    line-height: 40px;
     color: #ffffff;
+    font-size: 18px;
     text-indent: 13px;
 }
 
 .products-list-title a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 18px;
     font-weight: 900; 
-
 }
 
 .products-list-price{
     float: right;
     width: 55px;
-    margin-top: 0;
-    margin-left: 0;
     background-color: #818181;
     font-size: 18px;
-    line-height: 42px;
     color: #ffffff;
     text-align: center;
 }
