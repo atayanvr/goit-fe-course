@@ -94,7 +94,7 @@
 
   .slider-img {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
   }
 
@@ -131,18 +131,18 @@
   float: left;
 }
 
-.bt-left::after {
-  content: "";
-  background-image: url(../img/left.png);
-}
-
 .bt-right {
   float: right;
 }
 
-.bt-right::after {
+.bt-left::after {
+  background-image: url(../img/left.png);
   content: "";
+}
+
+.bt-right::after {
   background-image: url(../img/right.png);
+  content: "";
 }
 
 .bt-left:hover,
@@ -155,28 +155,30 @@
 
 .slider-item-title{
   position: absolute;
-  width: 757px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 758px;
+  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  text-transform: uppercase;
   letter-spacing: -0.02em;
-  text-align: center;
+  
 }
 
 .slider-title {
   font-size: 60px;
+  color: #fff;
   font-weight: 900;
   line-height: 82px;
-  color: #fff;
+
 }
 
 .slider-describe {
+  text-align: left;
   font-size: 24px;
+  color: #fff;
   font-weight: 300;
   line-height: 54px;
-  text-align: left;
-  color: #fff;
 }
 
 /* PRODUCTS SECTION */
@@ -272,11 +274,11 @@
 }
 
 .products-card-buttons{
+  width: 166px;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 166px;
   
 }
 
@@ -320,7 +322,6 @@
    position: relative;
    margin-bottom: 7px;
    margin-right: 2px;
-   
 }
 
 .products-icons-button{
@@ -339,13 +340,13 @@
 }
 
 .products-icons-button::before{
-  content: '';
   position: absolute;
+  content: '';
+  width: 28px;
+  height: 27px;
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
-  width: 28px;
-  height: 27px;
   background-image: url(../img/trolley.png);
 }
 
@@ -387,9 +388,6 @@
   display: block;
 }
 
-
-
-
 /* FOOTER */
 .footer{
   background-color: #323232;
@@ -409,9 +407,4 @@
   text-decoration: none;
 }
 
-/*
 
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-
-*/
