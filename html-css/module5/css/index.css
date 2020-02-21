@@ -162,7 +162,6 @@
   top: 50%;
   left: 50%;
   letter-spacing: -0.02em;
-  
 }
 
 .slider-title {
@@ -170,7 +169,6 @@
   color: #fff;
   font-weight: 900;
   line-height: 82px;
-
 }
 
 .slider-describe {
@@ -197,8 +195,6 @@
   letter-spacing: -0.96px;
   margin-bottom: 80px;
 }
-
-
 
 .products-title::after{
   display: block;
@@ -279,7 +275,6 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 .products-icons-link:first-child::after{

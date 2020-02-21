@@ -151,6 +151,9 @@ img{
 }
 
 /* TEAM */
+.team{
+    padding-bottom: 55px;
+}
 
 .team-title{
     display: block;
@@ -279,6 +282,73 @@ img{
 .icon-instagram{
     background-image: url(../img/icons/instagram.png);
 }
+
+/* FOOTER */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 62px;
+    position: relative;
+}
+
+.footer-section::before{
+    content: '';
+    display: block;
+    background-color: #e5e5e5;
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page-footer-description p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+.page-footer-description a{
+    color: #f38181;
+    text-decoration: none;
+}
+
+.subscribe-form{
+    display: flex;
+}
+
+.form-subscribe{
+    width: 230px;
+    height: 38px;
+    font-size: 15px;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 0;
+    border-right: 0;
+}
+
+.form-subscribe::placeholder{
+    font-size: 14px;
+    color: #cccccc;
+    font-family: 'Roboto', sans-serif;
+    text-indent: 11px;
+}
+
+.button-subscribe{
+    width: 149px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 900;
+    background-color: #95e1d3;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid rgb(231, 231, 231);
+}
+
+  
+
+
 
 
 /* visually-hidden helper */
