@@ -10,7 +10,6 @@ body{
 }
 
 
-
 img{
     display: block;
     max-width: 100%;
@@ -169,6 +168,8 @@ img{
 }
 
 .team-title span{
+    display: block;
+    padding-bottom: 15px;
     font-size: 24px;
     color: #333333;
     font-family: 'Kaushan Script', cursive;
@@ -202,6 +203,7 @@ img{
 .team-list{
     display: flex;
     padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -259,6 +261,7 @@ img{
 /* TEAM ICONS */
 .team-list-socials{
     display: flex;
+    padding: 0;
     height: 100%;
     list-style: none;
     justify-content: center;
