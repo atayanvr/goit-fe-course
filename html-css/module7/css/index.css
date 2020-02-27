@@ -1,11 +1,16 @@
-html{
-    box-sizing: border-box;
-}
+@import url("../css/fonts.css");
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #777777;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 
@@ -40,7 +45,7 @@ img{
     color: #222222;
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 600;
     font-family: 'Montserrat', sans-serif;
     transition-duration: 0.2s;
     transition-timing-function: linear;
@@ -51,6 +56,7 @@ img{
 }
 
 /* Main */
+/* TITLE CONTENT */
 
 .services{
     padding: 90px 0 90px;
@@ -62,15 +68,170 @@ img{
 }
 
 .title-content span{
+    display: block;
     font-size: 40px;
     line-height: 75px;
+    font-style: normal;
     color: #222222;
-    font-family: 'Kaushan Script', cursive; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 .title-describe{
    font-size: 16px;
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'Droid Serif', serif;
+   font-style: italic;
+   font-weight: 400;
    color: #777777;
+   margin-bottom: 75px;
 }
 
+/* SERVICES ITEMS */
+
+.services-list{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+
+.services-list-item{
+    width: 290px;
+}
+
+.services-list-item-title{
+    color: #222222;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.services-list-item p{
+    color: #777777;
+    font-family: 'Roboto Slab', sans-serif;
+    line-height: 20px;
+    letter-spacing: -0.025em;
+}
+
+.services-list-item::before{
+    content: '';
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.services-list-item::before{
+    display: block;
+    content: '';
+    border: 3px solid #fed136;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    margin: 0 auto 24px;
+    background-position: center;
+}
+
+.basket::before{
+    background-image: url(../img/basket.png);
+}
+
+.laptop::before{
+    background-image: url(../img/laptop.png);
+}
+
+.castle::before{
+    background-image: url(../img/castle.png);
+}
+
+.services-list-item:not(:last-child){
+    margin-right: 30px;
+}
+
+/* CONTACTS */
+
+.contacts{
+    padding: ;
+    background-image: url(../img/map.png);
+    background-color: #222222;
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 115px;
+}
+
+.title-contacts{
+    display: block;
+    text-align: center;
+}
+
+.title-contacts span{
+    display: block;
+    font-size: 40px;
+    line-height: 75px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title-contacts-describe{
+   font-size: 16px;
+   font-weight: 400;
+   font-family: 'Droid Serif', serif;
+   color: #777777;
+   
+}
+
+/* FORM CONTACTS */
+
+.form-contacts-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-bottom: 31px;
+}
+
+.form-contacts{
+    width: 458px;
+    
+}
+
+.input-form-contacts-item{
+    width: 100%;
+    height: 50px;
+}
+
+.form-contacts-item:not(:last-child){
+    margin-bottom: 28px;
+}
+
+.form-contacts-message{
+    width: 455px;
+    height: auto;
+    resize: none;
+}
+
+.form-contacts-button{
+    font-size: 18px;
+    background-color: #fed136;
+    color: #ffffff;
+    padding: 22px 45px;
+    border: none;
+    border-radius: 2%;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.input-form{
+    border-radius: 3%;
+    border: 1px solid #cccccc;
+    padding: 18px 16px;
+    text-transform: uppercase;
+}
+
+.input-form::placeholder{
+    font-size: 14px;
+    color: #bbbbbb;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
