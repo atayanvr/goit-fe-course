@@ -13,7 +13,6 @@ body{
   list-style: none;
 }
 
-
 img{
     display: block;
     max-width: 100%;
@@ -145,7 +144,7 @@ img{
     margin-right: 30px;
 }
 
-/* CONTACTS */
+/* FOOTER */
 
 .contacts{
     padding: ;
@@ -178,7 +177,6 @@ img{
    font-weight: 400;
    font-family: 'Droid Serif', serif;
    color: #777777;
-   
 }
 
 /* FORM CONTACTS */
