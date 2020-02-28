@@ -217,6 +217,7 @@ img{
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .input-form{
@@ -231,4 +232,14 @@ img{
     color: #bbbbbb;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+
+.input-form-contacts-item:required:valid,
+.form-contacts-message:required:valid{
+    outline-color: #008000;
+}
+
+.input-form-contacts-item:required:invalid,
+.form-contacts-message:required:invalid{
+    outline-color: #FF0000;
 }
