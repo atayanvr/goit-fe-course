@@ -167,6 +167,7 @@ img{
     line-height: 75px;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
+    font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -175,6 +176,7 @@ img{
    font-size: 16px;
    font-weight: 400;
    font-family: 'Droid Serif', serif;
+   font-style: italic;
    color: #777777;
 }
 

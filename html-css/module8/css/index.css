@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    width: 320px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+/* HEADER */
+
+.page-header{
+    background-image: url(../img/banner.png);
+    background-color: rgb(26, 25, 21);
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 540px;
+}
+
+.page-nav{
+    text-align: center;
+    padding-top: 20px;
+   
+}
+
+.page-nav-link{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+}
+
+.page-nav-link:nth-child(2){
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    padding: 8px 15px;
+   
+}
+
+.page-nav-link:first-child{
+    margin-right: 15px;
+}
+
+.header-describe{
+    text-align: center;
+    color: #ffffff;
+}
+
+.header-logo{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 115px;
+    margin-bottom: 35px;
+    color: #ffffff;
+}
+
+.header-describe h2{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 320px;
+    margin: 0 auto;
+}
+
+.header-describe p{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin: 15px auto 15px;
+    max-width: 225px;
+}
+
+.header-button{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    width: 280px;
+    height: 40px;
+    background-color: #ff4e50;
+    border: 0;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* PARTNETS */
+
+.partners{
+    text-align: center;
+}
+
+.partners-title{
+    font-size: 22px;
+    color: #333333;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 65px;
+}
+
+.partners-list-item{
+    position: relative;
+}
+
+.partners-list-img{
+    margin: 0 auto 22px;
+}
+
+.partners-list-name{
+    font-size: 14px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.parnets-list-about{
+    font-size: 14px;
+    font-weight: 300;
+    color: #666666;
+    font-family: 'Roboto', sans-serif;
+    max-width: 235px;
+    margin: 0 auto;
+}
+
+/* PARTNETS ICONS */
+.partners-icon{
+    
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+   
+    border: 0;
+    position: absolute;
+    top: 43%;
+    left: 58%;
+    padding: 7px 7px;
+    border-radius: 50%;
+    background-position: center;
+    border: 4px solid #ffffff;
+}
+
+.tv{
+    background-image: url(../img/icon.png);
+    background-color: #ff4e50;
+}
+
+.flask{
+    background-image: url(../img/icon2.png);
+    background-color: #ffa507;
+    top: 37%;
+    left: 57%;
+}
+
+.tea{
+    background-image: url(../img/icon3.png);
+    background-color: #1cd7ad;
+}
+
+.plane{
+    background-image: url(../img/icon4.png);
+    background-color: #4e73db;
+}
+
+.button-partners{
+    color: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 40px;
+    padding: 10px 60px;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px auto 55px;
+}
+
