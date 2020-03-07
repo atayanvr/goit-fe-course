@@ -24,7 +24,7 @@ img{
 .container{
     width: 320px;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 /* HEADER */
@@ -117,10 +117,12 @@ img{
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
     margin-top: 65px;
+    margin-bottom: 20px;
 }
 
 .partners-list-item{
     position: relative;
+    
 }
 
 .partners-list-img{
@@ -133,13 +135,13 @@ img{
     font-weight: 700;
 }
 
-.parnets-list-about{
+.partners-list-about{
     font-size: 14px;
     font-weight: 300;
     color: #666666;
     font-family: 'Roboto', sans-serif;
     max-width: 235px;
-    margin: 0 auto;
+    margin: 17px auto 30px;
 }
 
 /* PARTNETS ICONS */
@@ -148,7 +150,6 @@ img{
     background-repeat: no-repeat;
     width: 17px;
     height: 17px;
-   
     border: 0;
     position: absolute;
     top: 43%;
@@ -190,6 +191,6 @@ img{
     font-size: 14px;
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
-    margin: 25px auto 55px;
+    margin: 0 auto 55px;
 }
 

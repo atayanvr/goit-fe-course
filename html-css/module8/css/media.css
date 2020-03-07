@@ -41,6 +41,18 @@
     .partners-title{
         margin-bottom: 35px;
     }
+
+    .plane,
+    .flask{
+        top: 32%;
+        left: 62%;
+    }
+
+    .tv,
+    .tea{
+        top: 38%;
+        left: 58%;
+    }
       
     }
 
@@ -69,7 +81,11 @@
             margin-top: 0;
         }
 
-
+        .partners-icon{
+            top: 90px;
+            left: 110px;
+        }
+            
 
     }
 
