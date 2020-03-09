@@ -145,41 +145,48 @@ img{
 }
 
 /* PARTNETS ICONS */
-.partners-icon{
-    
-    background-repeat: no-repeat;
-    width: 17px;
-    height: 17px;
-    border: 0;
+.partners-list-item::after{
+    content: '';
+    display: block;
     position: absolute;
-    top: 43%;
-    left: 58%;
+    
     padding: 7px 7px;
     border-radius: 50%;
     background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    top: 43%;
+    left: 58%;
+    width: 17px;
+    height: 17px;
+    
+}
+
+.partners-list-item:nth-child(1)::after{
+    background-image: url(../img/icon.png);
+    background-color: #ff4e50;
     border: 4px solid #ffffff;
 }
 
-.tv{
-    background-image: url(../img/icon.png);
-    background-color: #ff4e50;
-}
-
-.flask{
+.partners-list-item:nth-child(2)::after{
     background-image: url(../img/icon2.png);
     background-color: #ffa507;
-    top: 37%;
-    left: 57%;
+    border: 4px solid #ffffff;
+    top: 38%;
+    left: 58%;
 }
 
-.tea{
+.partners-list-item:nth-child(3)::after{
     background-image: url(../img/icon3.png);
     background-color: #1cd7ad;
+    border: 4px solid #ffffff;
+    
 }
 
-.plane{
+.partners-list-item:nth-child(4)::after{
     background-image: url(../img/icon4.png);
     background-color: #4e73db;
+    border: 4px solid #ffffff;
 }
 
 .button-partners{

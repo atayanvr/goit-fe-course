@@ -10,7 +10,6 @@
     .header-logo{
         margin: 0;
         order: -1;
-        
     }
     .page-nav{
         display: flex;
@@ -33,7 +32,6 @@
         order: -1;
     }
 
-
     .header-button{
         width: 225px;
     }
@@ -42,17 +40,8 @@
         margin-bottom: 35px;
     }
 
-    .plane,
-    .flask{
-        top: 32%;
-        left: 62%;
-    }
-
-    .tv,
-    .tea{
-        top: 38%;
-        left: 58%;
-    }
+  
+   
       
     }
 
@@ -81,18 +70,24 @@
             margin-top: 0;
         }
 
-        .partners-icon{
-            top: 90px;
-            left: 110px;
-        }
+        .partners-list-item::after{
+             top: 90px;
+             left: 110px;
+}
             
 
     }
 
 
+
     @media(min-width: 768px) and (max-width:939px){
         .partners-list-item:nth-child(even){
             margin-top: 55px;
+        }
+
+        .partners-list-item::after{
+            top: 90px;
+            left: 140px;
         }
     }
     
