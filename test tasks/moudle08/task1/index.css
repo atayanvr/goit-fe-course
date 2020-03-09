@@ -1,0 +1,40 @@
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.section{
+    width: 54.1%;
+    background-color: #01AEF0;
+    height: 500px;
+}
+
+.main{
+    display: flex;
+    margin: 2% 0;
+}
+
+.aside1{
+    width: 20.8%;
+    background-color: #A8A9AD;
+    height: 500px;
+    margin: 0 2.5%;
+}
+
+.aside2{
+    width: 20.8%;
+    background-color: #E95728;
+    height: 500px;
+}
+
+.header{
+    width: 100%;
+    background-color: #FFF000;
+    height: 200px;
+}
+
+.footer{
+    width: 100%;
+    background-color: #03A454;
+    height: 200px;
+}

@@ -1,0 +1,46 @@
+.wrappper{
+    background-color: #DEDEDE;
+    width: 480px;
+}
+
+.block1{
+    background-color: #F95E40;
+    margin: 2% 2%;
+    min-height: 300px;
+}
+
+.block2{
+    background-color: #00A672;
+    margin: 2% 2%;
+    min-height: 300px;
+}
+
+.block3{
+    background-color: #2F97DE;
+    margin: 2% 2%;
+    min-height: 200px;
+}
+
+@media (min-width: 768px){
+    .wrappper{
+        width: 768px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .block1{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .block2{
+        width: 36%;
+        margin: 2%;
+        min-height: 500px;
+    }
+
+    .block3{
+        width: 56%;
+        margin: 2%;
+    }
+}

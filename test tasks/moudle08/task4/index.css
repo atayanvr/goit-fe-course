@@ -1,0 +1,32 @@
+.wrapper{
+    background-image: url(https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    min-width: 320px;
+    min-height: 320px;
+}
+
+@media(min-width: 480px){
+    .wrapper{
+        background-image: url(https://images.pexels.com/photos/1478419/pexels-photo-1478419.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        width: 480px;
+        height: 480px;
+        background-position: center top;
+    }
+}
+
+@media(min-width: 768px){
+    .wrapper{
+        background-image: url(https://images.pexels.com/photos/1122409/pexels-photo-1122409.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        width: 768px;
+        height: 768px;
+      
+    }
+}
+
+@media(min-width: 1200px){
+    .wrapper{
+        background-image: url(https://images.pexels.com/photos/843633/pexels-photo-843633.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+        width: 1200px;
+        height: 1200px;
+        background-position: center top;
+    }
+}
