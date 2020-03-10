@@ -145,11 +145,10 @@ img{
 }
 
 /* PARTNETS ICONS */
-.partners-list-item::after{
+.partners-list-img-wr::after{
     content: '';
     display: block;
     position: absolute;
-    
     padding: 7px 7px;
     border-radius: 50%;
     background-position: center;
@@ -159,31 +158,28 @@ img{
     left: 58%;
     width: 17px;
     height: 17px;
-    
 }
 
-.partners-list-item:nth-child(1)::after{
+.tv::after{
     background-image: url(../img/icon.png);
     background-color: #ff4e50;
     border: 4px solid #ffffff;
 }
 
-.partners-list-item:nth-child(2)::after{
+.flask::after{
     background-image: url(../img/icon2.png);
     background-color: #ffa507;
     border: 4px solid #ffffff;
-    top: 38%;
-    left: 58%;
 }
 
-.partners-list-item:nth-child(3)::after{
+.tea::after{
     background-image: url(../img/icon3.png);
     background-color: #1cd7ad;
     border: 4px solid #ffffff;
     
 }
 
-.partners-list-item:nth-child(4)::after{
+.plane::after{
     background-image: url(../img/icon4.png);
     background-color: #4e73db;
     border: 4px solid #ffffff;

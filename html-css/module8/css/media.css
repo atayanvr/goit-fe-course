@@ -70,10 +70,10 @@
             margin-top: 0;
         }
 
-        .partners-list-item::after{
-             top: 90px;
-             left: 110px;
-}
+        .partners-list-img-wr::after{
+            top: 90px;
+            left: 110px;
+        }
             
 
     }
@@ -85,9 +85,6 @@
             margin-top: 55px;
         }
 
-        .partners-list-item::after{
-            top: 90px;
-            left: 140px;
-        }
+        
     }
     
