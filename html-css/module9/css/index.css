@@ -63,6 +63,8 @@ img{
 .header-describe{
     text-align: center;
     color: #ffffff;
+    padding: 0;
+    margin: 0;
 }
 
 .header-logo{
