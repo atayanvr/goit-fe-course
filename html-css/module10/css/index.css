@@ -30,8 +30,24 @@ img{
     background-position: center;
 }
 
+.page-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 90px;
+}
+
+.site-logo{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .header-describe{
     text-align: center;
+    margin-top: 105px;
 }
 
 .header-describe__subtitle{
@@ -48,7 +64,7 @@ img{
     color: #ffffff;
     max-width: 870px;
     line-height: 140px;
-    margin: 0 auto;
+    margin: 0 auto 120px;
 }
 
 .header-describe__link{
@@ -62,13 +78,6 @@ img{
     padding: 10px 25px;
 }
 
-.page-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    min-height: 90px;
-}
-
 .site-navigation{
     display: flex;
     width: 510px;
@@ -76,31 +85,37 @@ img{
     list-style: none;
 }
 
-.site-navigation-link{
+.site-navigation__link{
     display: block;
     font-size: 14px;
-    color: #95e1d3;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
     text-transform: uppercase;
     text-decoration: none;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
     position: relative;
     transition: color 0.2s linear;
 }
 
-.site-navigation-link:hover{
-    color: #f38181;
+.site-navigation__link:hover{
+    color: #fce38a;
    
 }
 
-.site-navigation-link:hover:after{
+.site-navigation__link:hover:after{
     content: '';
     display: block;
     position: absolute;
 
     width: 100%;
     height: 3px;
-    background-color: #f38181;
+    background-color: #fce38a;
+}
+
+.site-navigation__button{
+    width: 18px;
+    height: 18px;
+    fill: #fff;
 }
 
 /* Main */
@@ -123,7 +138,7 @@ img{
     font-family: 'Kaushan Script', cursive; 
 }
 
-.title-describe{
+.title-content__describe{
    font-size: 30px;
    line-height: 36px;
    font-family: 'Montserrat', sans-serif;
@@ -141,7 +156,7 @@ img{
 
 /* ICONS */
 
-.services-list-item-title::before{
+.services-list__item--title::before{
     content: '';
     display: block;
     position: absolute;
@@ -152,7 +167,7 @@ img{
     background-repeat: no-repeat;
 }
 
-.services-list-item-title.icon-alarm::before{
+.services-list__item--title.icon-alarm::before{
     background-image: url(../img/icons/alarm.png);
 }
 
@@ -183,14 +198,14 @@ img{
     justify-content: space-between;
 }
 
-.services-list-item{
+.services-list__item{
     position: relative;
     width: 275px;
     min-height: 120px;
     padding: 15px 15px 15px 75px;
 }
 
-.services-list-item h3{
+.services-list__item--title{
     color: #333333;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
@@ -216,10 +231,12 @@ img{
     font-family: 'Kaushan Script', cursive;
 }
 
-.team-describe{
+.team-title__describe{
    font-size: 30px;
+   line-height: 1.2;
    font-family: 'Montserrat', sans-serif;
    color: #333333;
+   text-transform: uppercase;
 }
 
 .team-title::after{
@@ -231,7 +248,7 @@ img{
     margin: 35px auto 45px;
 }
 
-.team-title-describe{
+.team-title__paragraph{
     font-family: 'Roboto', sans-serif;
     color: #999999;
     font-size: 15px;
@@ -248,22 +265,22 @@ img{
     list-style: none;
 }
 
-.team-list-item{
+.team-list__item{
     width: 380px;
 }
 
-.team-list-item-overlay{
+.team-list__overlay{
     position: relative;
     transition-duration: 0.2s;
     transition-timing-function: linear;
 }
 
-.team-list-item-overlay:hover{
+.team-list__overlay:hover{
     transform: translate(-10px, -10px);
     box-shadow: 10px 10px #95e1d3;
 }
 
-.team-list-item-icons{
+.team-icons{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -272,18 +289,28 @@ img{
     opacity: 0;
 }
   
-.team-list-item-icons:hover{
+.team-icons:hover{
     opacity: 1;
 }
 
-.team-name{
+.team-icons__socials svg{
+    display: block;
+    width: 26px;
+    height: 26px;
+}
+
+.team-wrapper{
+    text-align: center;
+}
+
+.team-wrapper__name{
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     color: #111111;
     text-transform: uppercase;
 }
 
-.team-occupation{
+.team-wrapper__occupation{
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 15px;
@@ -291,59 +318,62 @@ img{
     color: #999999;
 }
 
-.team-name-wrapper{
-    text-align: center;
-}
 
-.team-list-item:not(:last-child){
+.team-list__item:not(:last-child){
     margin-right: 30px;
 }
 
 /* TEAM ICONS */
-.team-list-socials{
+.team-icons__socials{
     display: flex;
     padding: 0;
     height: 100%;
     list-style: none;
     justify-content: center;
     align-items: center;
-    
-   
 }
-.team-list-socials .icon{
-    display: block;
+
+.team-icons__link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 55px;
     height: 55px;
-    background-position: center;
-    background-repeat: no-repeat;
     background-color: #fce38a;
 }
 
-
-  
-
-/*
-.team-list-socials .icon:hover{
-    background-color: #95e1d3;
+.team-list__icon{
+    position: relative;
+    left: 20%;
+    display: inline-block;
+    width: 55px;
+    height: 55px;
+    fill: #f38181;
+    transition: fill 0.2s linear;
 }
 
-.icon-facebook{
-    background-image: url(../img/icons/facebook.png);
+
+.team-icons__socials a:hover svg{
+    fill: #fff;
 }
 
-.icon-twitter{
-    background-image: url(../img/icons/twitter.png);
+.team-list__socials__icon-facebook{
+    
 }
 
-.icon-pinterest{
-    background-image: url(../img/icons/pinterest.png);
+.team-list__socials__icon-twitter{
+
 }
 
-.icon-instagram{
-    background-image: url(../img/icons/instagram.png);
+.team-list__socials__icon-pinterest{
+   
 }
 
-*/
+.team-list__socials__icon-instagram{
+    
+}
+
+
 
 /* FOOTER */
 .footer-section{
@@ -365,7 +395,7 @@ img{
     left: 0;
 }
 
-.page-footer-description p{
+.page-footer__description p{
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     color: #333333;
