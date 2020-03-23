@@ -379,7 +379,7 @@ img{
     transition: fill 0.2s linear;
 }
 
-.team-list__icon:hover{
+.team-icons__link:hover .team-list__icon{
     fill: #fff;
 }
 
