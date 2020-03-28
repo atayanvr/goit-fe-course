@@ -1,0 +1,23 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+
+@import 'helpers/variables'; 
+@import 'helpers/mixins';
+@import 'helpers/extras';
+@import 'normalize';
+@import 'base';
+
+/* COMPONENTS */
+@import 'components/container';
+@import 'components/page-header';
+@import 'components/page-nav';
+@import 'components/site-logo';
+@import 'components/header-text';
+@import 'components/site-navigation';
+@import 'components/services';
+@import 'components/title-content';
+@import 'components/team';
+@import 'components/team-icons';
+@import 'components/page-footer';
+@import 'components/subscribe';

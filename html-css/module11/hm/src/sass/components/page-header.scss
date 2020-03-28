@@ -1,0 +1,12 @@
+.page-header{
+    background-image: url(../images/background.png);
+    min-height: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-resolution: 192dpi), (min-resolution: 2dppx){
+    .page-header{
+        background-image: url(../img/background@2x.png);
+    }
+}
