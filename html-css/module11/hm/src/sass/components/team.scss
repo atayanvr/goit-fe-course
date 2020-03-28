@@ -12,13 +12,13 @@
     padding-bottom: 15px;
     font-size: 24px;
     color: #333333;
-    font-family: 'Kaushan Script', cursive;
+    font-family: $describe-font-cursive;
 }
 
 .team-title__describe{
    font-size: 30px;
    line-height: 1.2;
-   font-family: 'Montserrat', sans-serif;
+   font-family: $secondary-font-stack;
    color: #333333;
    text-transform: uppercase;
 }
@@ -33,7 +33,7 @@
 }
 
 .team-title__paragraph{
-    font-family: 'Roboto', sans-serif;
+    font-family: $main-font-stack;
     color: #999999;
     font-size: 15px;
     line-height: 24px;
@@ -75,14 +75,14 @@
 }
 
 .team-wrapper__name{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $secondary-font-stack;
     font-size: 14px;
     color: $primary-dark-color;
     text-transform: uppercase;
 }
 
 .team-wrapper__occupation{
-    font-family: 'Roboto', sans-serif;
+    font-family: $main-font-stack;
     font-style: italic;
     font-size: 15px;
     line-height: 24px;

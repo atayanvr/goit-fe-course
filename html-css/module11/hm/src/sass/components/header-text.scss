@@ -4,14 +4,14 @@
 }
 
 .header-describe__subtitle{
-    font-family: 'Kaushan Script', cursive;
+    font-family: $describe-font-cursive;
     font-size: 72px;
     line-height: 100%;
     color: #ffffff;
 }
 
 .header-describe__title{
-    font-family: 'Montserrat', sans-serif;
+    font-family: $secondary-font-stack;
     text-transform: uppercase;
     font-size: 150px;
     color: #ffffff;
@@ -23,7 +23,7 @@
 .header-describe__link{
     font-size: 14px;
     font-weight: 700;
-    font-family: 'Montserrat', sans-serif;
+    font-family: $secondary-font-stack;
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
